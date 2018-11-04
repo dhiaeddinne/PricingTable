@@ -1,0 +1,54 @@
+body{
+    background-color: #a3a1a1;
+    font-family: 'Supermercado One', cursive;
+    color: #fff;
+    margin: 0;
+}
+
+h2{
+    text-align: center;
+}
+
+.col{
+    float: left;
+    padding: 7px;
+    width: 33%;
+    box-sizing: border-box;
+}
+
+.col ul li{
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+    border-bottom: 1px solid black;
+    background: #fff;
+    color: #555;
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+
+.col ul li.header,.col ul li.sing-up {
+    background: #75D701;
+}
+
+.col ul li.sing-up a{
+    text-decoration: none;
+    color: black;
+}
+
+@media(max-width:680px){
+    .col{
+        width: 100%;
+        margin: auto;
+        
+    }
+    .col-box{
+        padding-left: 0;
+    }
+}
+
+
+
+
+
